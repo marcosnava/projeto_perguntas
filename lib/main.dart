@@ -20,8 +20,8 @@ class _PerguntaAppState extends State<PerguntaApp> {
   @override
   Widget build(BuildContext context) {
     final perguntas = [
-      'Qual é a sua cor favorita',
-      'Qual é o seu animal favorito'
+      'Qual é a sua cor favorita?',
+      'Qual é o seu animal favorito?'
     ];
     return MaterialApp(
       home: Scaffold(
